@@ -9,9 +9,9 @@ class App extends Component {
         <header className="App-header">
         </header>
         <main>
-          <Out />
-          <Out>I love Cats!</Out>
-          <Out />
+          <Out un='soWhat666'/>
+          <Out un='catMom666'>I love Cats!</Out>
+          <Out un='eennaaaaneee'/>
         </main>
       </div>
     );
