@@ -5,7 +5,7 @@ import './In.css';
 const In = (props) => {
     return (
         <div className='In'>
-            <Input placeholder='Enter New UserName Here...' type='text' onChange={props.changed} value={props.un}/>
+            <Input placeholder='Enter New UserName Here...' type='text' onChange={props.changed} value={props.currentName}/>
         </div>
     )
 };

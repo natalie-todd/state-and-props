@@ -43,7 +43,8 @@ class App extends Component {
           <Out un={this.state.persons[1].un}
           click={this.unChangedHandler.bind(this, 'RachelSarah!')}>I love Cats!</Out>
           <In 
-          changed={this.eventHandlerMR}/>
+          changed={this.eventHandlerMR}
+          currentName={this.state.persons[1].un} />
           <Out un={this.state.persons[2].un} />
           <In />
         </main>
