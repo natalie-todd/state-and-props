@@ -5,7 +5,7 @@ import './In.css';
 const In = (props) => {
     return (
         <div className='In'>
-            <input type='text'/>
+            <input type='text' onChange={props.changed}/>
         </div>
     )
 };
